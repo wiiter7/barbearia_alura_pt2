@@ -27,36 +27,36 @@
           <input type="text" id="nomesobrenome" class="input-padrao" required>
   
           <label for="email">Email</label>
-          <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+          <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
   
           <label for="telefone">Telefone</label>
-          <input type="text" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+          <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
   
           <label for="mensagem">mensagem</label>
           <textarea cols="70" rows="10" id="mensagem" class="input-padrao">
           </textarea>
 
-          <div>
+          <fieldset>
             <p>Como prefere nosso contato?</p>
             <label form="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
 
             <label form="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
 
             <label form="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
-          </div>
+          </fieldset>
 
-          <div>
+          <fieldset>
             <p>Qual horário prefere ser atendido?</p>
             <select>
               <option>Manhã</option>
               <option>Tarde</option>
               <option>Noite</option>
             </select>
-          </div>
+          </fieldset>
 
           <label class="checkbox"><input type="checkbox">Gostaria de receber novidades por email</label>
           
-          <input type="submit" value="Enviar formulário">
+          <input type="submit" value="Enviar formulário" class="Enviar>
         </form>
       </main>
 
