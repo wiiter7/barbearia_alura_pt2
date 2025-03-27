@@ -50,4 +50,10 @@ table{
 thead{
   background: #555555;
   color: white;
+  font-weight:  bold;
+}
+
+yd, th{
+  border: 1px solid black;
+  padding: 8px 15px;
 }
