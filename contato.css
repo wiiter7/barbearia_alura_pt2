@@ -42,3 +42,11 @@ input padrão {
   background: darkgoldenrod;
   transform: scale (1.2);
 }
+
+table{
+  margin: 20px 0 40px;
+}
+
+thead{
+  background: #555555;
+}
