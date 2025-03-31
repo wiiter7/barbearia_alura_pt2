@@ -4,29 +4,35 @@
 	width:100%;
 }
 
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
-}
-
 .titulo-principal {
-	padding-left: 20px;
-}
-
-.titulo-centralizado {
-	text-align: center
-}
-
-p {
 	text-align: center;
+	font-size: 2em;
+	margin: 0 0 lem;
+	clear:left;
 }
 
+.principal P{
+	margin: 0 0  lem;
+}
+
+.principal strong{
+	font-weight:bould
+}
+.principa em{
+	font-style:italic;
+}
 #missao {
 	font-size: 20px
 }
 
-em strong {
-	color: #FF0000;
+.utensilios {
+	width:120px;
+	float:left;
+	margin:0 20px 20px 0;
+}
+
+.imagembeneficios {
+	width: 60%;
 }
 
 .itens {
@@ -36,15 +42,4 @@ em strong {
 .beneficios {
 	background: #FFFFFF;
 	padding: 20px;
-}
-
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-}
-
-.imagembeneficios {
-	width: 50%;
 }
