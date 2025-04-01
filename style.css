@@ -47,3 +47,17 @@ body{
 	background: #FFFFFF;
 	padding: 20px;
 }
+
+.mapa {
+	padding: 3em 0;
+}
+
+mapa p{
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.video{
+	width: 500px;
+	margin: lem auto;
+}
