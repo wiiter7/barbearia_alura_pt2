@@ -56,7 +56,11 @@ body{
 }
 
 .itens {
-	font-style: italic
+	line-height:1.5;
+}
+
+.itens.first-child{
+	font-wight:bold;
 }
 
 .mapa {
