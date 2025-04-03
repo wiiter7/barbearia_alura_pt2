@@ -35,17 +35,28 @@ body{
 	margin:0 20px 20px 0;
 }
 
-.imagembeneficios {
+.beneficios {
+	padding: 3em 0;
+	background:888888;
+}
+
+.conteudo-beneficios {
+	width:640px;
+	margin:0 auto;
+}
+
+.imagem-beneficios {
 	width: 60%;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display:inline-block;
+	vertical-aline: top;
 }
 
 .itens {
 	font-style: italic
-}
-
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
 }
 
 .mapa {
