@@ -52,8 +52,15 @@ body{
 	margin:0 auto;
 }
 
-.imagem-beneficios {
+.imagembeneficios {
 	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagembeneficios:hover {
+	opacity: 0.3;
 }
 
 .lista-beneficios {
@@ -69,6 +76,10 @@ body{
 .itens.first-child{
 	font-wight:bold;
 }
+
+.itens-before {
+	content: ⭐;
+} 
 
 .mapa {
 	padding: 3em 0;
