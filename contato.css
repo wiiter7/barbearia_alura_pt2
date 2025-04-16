@@ -1,5 +1,9 @@
 @import url(produtos.css);
 
+body{
+  font-family: 'Roboto',sans-serif;
+}
+
 main {
     width: 940px;
     margin: 0 auto;
@@ -15,15 +19,15 @@ form label, form p {
   margin: 0 0 10px;
 }
 
-input padrão {
+.input-padrão {
   display: block;
   margin: 0 0 20px;
   padding: 10px 25px;
   width: 50%;
 }
 
-:checkebox{
-  margin: 20px o;
+.checkebox{
+  margin: 20px 0;
 }
 
 .enviar{
@@ -53,7 +57,7 @@ thead{
   font-weight:  bold;
 }
 
-yd, th{
+td, th{
   border: 1px solid black;
   padding: 8px 15px;
 }

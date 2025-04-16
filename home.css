@@ -27,10 +27,10 @@ body{
 }
 
 .principal strong{
-	font-weight:bould
+	font-weight: bold;
 }
 .principa em{
-	font-style:italic;
+	font-style: italic;
 }
 #missao {
 	font-size: 20px
@@ -44,7 +44,7 @@ body{
 
 .beneficios {
 	padding: 3em 0;
-	background:888888;
+	background: #888888;
 }
 
 .conteudo-beneficios {
@@ -52,21 +52,21 @@ body{
 	margin:0 auto;
 }
 
-.imagembeneficios {
+.lista-beneficios {
+	width: 40%;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.imagem-beneficios {
 	width: 60%;
 	opacity: 1;
 	transition: 400ms;
 	box-shadow: 10px 10px 10px 0 #000000;
 }
 
-.imagembeneficios:hover {
+.imagem-beneficios:hover {
 	opacity: 0.3;
-}
-
-.lista-beneficios {
-	width: 40%;
-	display:inline-block;
-	vertical-aline: top;
 }
 
 .itens {
@@ -74,16 +74,16 @@ body{
 }
 
 .itens.first-child{
-	font-wight:bold;
+	font-weight: bold;
 }
 
 .itens-before {
-	content: ⭐;
+	content: 🪒;
 } 
 
 .mapa {
 	padding: 3em 0;
-	background:linear-gradient(fefefe,888888);
+	background:linear-gradient(#fefefe,888888);
 }
 
 .mapa p{
